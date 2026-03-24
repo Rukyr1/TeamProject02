@@ -1,6 +1,23 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// MyActor.cpp
 
-#include "TeamProject02.h"
-#include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, TeamProject02, "TeamProject02" );
+#include "MyActor.h"
+
+AMyActor::AMyActor()
+{
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+void AMyActor::BeginPlay()
+{
+	Super::BeginPlay();
+
+}
+
+void AMyActor::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
